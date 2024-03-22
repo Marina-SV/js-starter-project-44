@@ -7,8 +7,8 @@ function askName() {
 
 const greeting = () => {
   console.log('Welcome to the Brain Games!');
-  const name = askName();
-  console.log(`Hello, ${name}!`);
+  const nameOfPlayer = askName();
+  console.log(`Hello, ${nameOfPlayer}!`);
 };
 
 export default greeting;
